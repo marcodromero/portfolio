@@ -24,3 +24,8 @@ a{
   color: #0969da;
   text-decoration: none;
 }
+
+footer{
+  position: absolute;
+  bottom: 0;
+}
