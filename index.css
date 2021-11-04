@@ -1,0 +1,26 @@
+body{
+  background-color: #040d21;
+}
+
+main .carousel-item img{
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 100, 0.5);
+}
+
+.overlay .container, .overlay .row{
+  height: 100%;
+}
+
+a{
+  color: #0969da;
+  text-decoration: none;
+}
