@@ -145,7 +145,7 @@ a:hover{
 }
 
 .tag{
-  background-color: rgb(102, 101, 101);
+  background-color: rgb(85, 85, 85);
   color: #dddddd;
   border-radius: 6px;
   padding: 2px 10px;
@@ -163,6 +163,10 @@ a:hover{
 
 .tag--js{
   background-color:#8b7203;
+}
+
+.tag--php{
+  background-color:#3b0041;
 }
 
 .links{
@@ -185,14 +189,20 @@ a:hover{
 
 
 .links a{
-  color: white;
+  background-color: #06476d;
+  color: #f1efef;
   margin-bottom: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition-duration: 0.4s;  
+  box-shadow: 0px 4px 0px #031d2c;
+;
 }
 
 .links a:hover{
-  transform: scale(1.1);
-  transition-duration: 0.5s;
-  color: rgb(53 195 215);
+  background-color: #0b5f91;
+   box-shadow: 0px 4px 0px #053b5a;
+  color: #f1efef;
 }
 
 

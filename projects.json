@@ -1,8 +1,16 @@
 [
   {
+    "title": "Etimología de nombres",
+    "image": "./images/meaning-names.jpg",
+    "tags": [{"name":"Javascript", "className":"tag--js"}, {"name":"Supabase", "className":"tag"}],
+    "description": "Web para conocer el significado de los nombres y su origen.",
+    "repositories": {"full": "https://github.com/marcodromero/meaning-names"},
+    "live": "https://marcodromero.github.io/meaning-names/"
+  },
+  {
     "title": "El juego de la memoria",
     "image": "./images/memory-game.jpg",
-    "tags": [{"name":"Javascript", "className":"tag--js"}],
+    "tags": [{"name":"Javascript", "className":"tag--js"}, {"name":"LocalStorage", "className":"tag"}],
     "description": "Videojuego de encontrar todos los pares de cartas identicas en el menor tiempo posible.",
     "repositories": {"full": "https://github.com/marcodromero/memory-game/"},
     "live": "https://marcodromero.github.io/memory-game/"
@@ -15,33 +23,32 @@
     "repositories": {"server": "https://github.com/No-Country/s9-14-ft-node-react"}
   },
   {
-    "title": "AWERICANA",
+    "title": "Awericana",
     "image": "./images/awericana/awericana_principal.jpg",
     "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
     "description": "E-commerce para la compra y venta de ropa usada.",
     "repositories": {"full": "https://github.com/No-Country/c11-29-ft-node-react-Awericana"}
-   
   },
   {
-    "title": "ONG SOMOS MÁS",
+    "title": "ONG Somos más",
     "image": "./images/ong/ong_inicio.jpg",
-    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
+    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web informativa sobre ONG con acceso de usuarios y panel de administrador.",
     "repositories": {"server": "https://github.com/alkemyTech/OT288-server/tree/dev", "client": "https://github.com/alkemyTech/OT288-client/tree/dev"}
 
   },
   {
-    "title": "ADMINISTRACIÓN DE PRESUPUESTO PERSONAL",
+    "title": "Presupuesto personal",
     "image": "./images/alkemy/alkemy_operaciones.jpg",
-    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
-    "description": "Challenge propuesto por Alkemy para poder participar en su aceleración.",
+    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
+    "description": "Web para llevar un control del dinero actual en base a los ingresos y gastos que registra el usuario.",
     "repositories": {"server": "https://github.com/marcodromero/challenge-fs-alkemy-server", "client": "https://github.com/marcodromero/challenge-fs-alkemy-client"},
     "live":"https://marcodromero.github.io/demo-challenge-fs-alkemy/"
   },
   {
-    "title": "ADMINISTRACIÓN DE CENTRO EDUCATIVO",
+    "title": "Centro educativo",
     "image": "./images/instituto/instituto_cursos.jpg",
-    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
+    "tags": [{"name":"Php", "className":"tag--php"} , {"name":"Javascript", "className":"tag--js"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web para gestionar los profesores, alumnos, cursos e inscripciones a estos.",
     "repositories": {"server": "https://github.com/No-Country/s9-14-ft-node-react"},
     "live":"https://marcodromero.github.io/demo-centro-educativo/"

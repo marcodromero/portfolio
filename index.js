@@ -29,12 +29,12 @@ fetch("./projects.json").then((response)=>{
        depscription.appendChild(depscriptionText);
 
        const links = document.createElement("section");
-       links.classList = "links";
+       links.className = "links";
 
        if(project.live){
         const demoLink = document.createElement("a");
         demoLink.href = project.live;
-        const demoLinkText = document.createTextNode("Acceder al sitio");
+        const demoLinkText = document.createTextNode("🕹️ Demo");
         demoLink.appendChild(demoLinkText);
         links.appendChild(demoLink);
        }
@@ -42,7 +42,7 @@ fetch("./projects.json").then((response)=>{
        if(project.documentation){
         const docuLink = document.createElement("a");
         docuLink.href = project.documentation;
-        const docuLinkText = document.createTextNode("Documentación");
+        const docuLinkText = document.createTextNode("📄 Documentación");
         docuLink.appendChild(docuLinkText);
         links.appendChild(docuLink);
        }
@@ -51,7 +51,7 @@ fetch("./projects.json").then((response)=>{
        if(project.repositories.server){
         const repoServerLink = document.createElement("a");
         repoServerLink.href = project.repositories.server;
-        const repoServerLinkText = document.createTextNode("Repos. Servidor");
+        const repoServerLinkText = document.createTextNode("💾 Repos. Servidor");
         repoServerLink.appendChild(repoServerLinkText);
         links.appendChild(repoServerLink);
        }
@@ -59,7 +59,7 @@ fetch("./projects.json").then((response)=>{
        if(project.repositories.client){
          const repoClientLink = document.createElement("a");
          repoClientLink.href = project.repositories.client;
-         const repoClientLinkText = document.createTextNode("Repos. Cliente");
+         const repoClientLinkText = document.createTextNode("💾 Repos. Cliente");
          repoClientLink.appendChild(repoClientLinkText);
          links.appendChild(repoClientLink);
        }       
@@ -67,7 +67,7 @@ fetch("./projects.json").then((response)=>{
        if(project.repositories.full){
          const repoFullLink = document.createElement("a");
          repoFullLink.href = project.repositories.full;
-         const repoFullLinkText = document.createTextNode("Repositorio");
+         const repoFullLinkText = document.createTextNode("💾 Repositorio");
          repoFullLink.appendChild(repoFullLinkText);
          links.appendChild(repoFullLink);
        }
