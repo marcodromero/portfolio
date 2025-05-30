@@ -5,7 +5,7 @@
     "tags": [{"name":"Javascript", "className":"tag--js"}, {"name":"Supabase", "className":"tag"}],
     "description": "Web para conocer el significado de los nombres y su origen.",
     "repositories": {"full": "https://github.com/marcodromero/meaning-names"},
-    "live": "https://marcodromero.github.io/meaning-names/"
+    "live": "https://meaning-names.vercel.app/"
   },
   {
     "title": "El juego de la memoria",
