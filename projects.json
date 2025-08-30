@@ -1,5 +1,13 @@
 [
   {
+    "title": "Archivos Compu",
+    "image": "./images/compu-archives.png",
+    "tags": [{"name":"React", "className":"tag--react"}],
+    "description": "Fan web dedicada a la revista Billiken Compu (ya discontinuada).",
+    "repositories": {"full": "https://github.com/marcodromero/compu-archives"},
+    "live": "https://archivoscompu.vercel.app/"
+  },
+  {
     "title": "Etimología de nombres",
     "image": "./images/meaning-names.jpg",
     "tags": [{"name":"Javascript", "className":"tag--js"}, {"name":"Supabase", "className":"tag"}],
