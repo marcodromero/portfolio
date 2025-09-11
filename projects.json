@@ -8,6 +8,14 @@
     "live": "https://archivoscompu.vercel.app/"
   },
   {
+    "title": "Portfolio de Pastelera",
+    "image": "./images/portfolio-cris.png",
+    "tags": [{"name":"React", "className":"tag--react"}],
+    "description": "Portfolio creado para una amiga con el objetivo de incluirlo en su CV.",
+    "repositories": {"full": "https://github.com/marcodromero/portfolio-cris"},
+    "live": "https://portfolio-cris-nine.vercel.app/"
+  },
+  {
     "title": "Etimología de nombres",
     "image": "./images/meaning-names.jpg",
     "tags": [{"name":"Javascript", "className":"tag--js"}, {"name":"Supabase", "className":"tag"}],
