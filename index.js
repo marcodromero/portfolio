@@ -51,7 +51,7 @@ fetch("./projects.json").then((response)=>{
        if(project.repositories.server){
         const repoServerLink = document.createElement("a");
         repoServerLink.href = project.repositories.server;
-        const repoServerLinkText = document.createTextNode("💾 Repos. Servidor");
+        const repoServerLinkText = document.createTextNode("💾 Repos. Backend");
         repoServerLink.appendChild(repoServerLinkText);
         links.appendChild(repoServerLink);
        }
@@ -59,7 +59,7 @@ fetch("./projects.json").then((response)=>{
        if(project.repositories.client){
          const repoClientLink = document.createElement("a");
          repoClientLink.href = project.repositories.client;
-         const repoClientLinkText = document.createTextNode("💾 Repos. Cliente");
+         const repoClientLinkText = document.createTextNode("💾 Repos. Frontend");
          repoClientLink.appendChild(repoClientLinkText);
          links.appendChild(repoClientLink);
        }       
