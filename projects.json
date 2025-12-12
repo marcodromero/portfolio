@@ -50,7 +50,7 @@
     "image": "./images/ong/ong_inicio.jpg",
     "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web informativa sobre ONG con acceso de usuarios y panel de administrador.",
-    "repositories": {"server": "https://github.com/alkemyTech/OT288-server/tree/dev", "client": "https://github.com/alkemyTech/OT288-client/tree/dev"}
+    "repositories": {"server": "https://github.com/marcodromero/Alkemy-ONG-Server", "client": "https://github.com/marcodromero/Alkemy-ONG-Client"}
 
   },
   {
@@ -58,16 +58,14 @@
     "image": "./images/alkemy/alkemy_operaciones.jpg",
     "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web para llevar un control del dinero actual en base a los ingresos y gastos que registra el usuario.",
-    "repositories": {"server": "https://github.com/marcodromero/challenge-fs-alkemy-server", "client": "https://github.com/marcodromero/challenge-fs-alkemy-client"},
-    "live":"https://marcodromero.github.io/demo-challenge-fs-alkemy/"
+    "repositories": {"server": "https://github.com/marcodromero/challenge-fs-alkemy-server", "client": "https://github.com/marcodromero/challenge-fs-alkemy-client"}
   },
   {
     "title": "Centro educativo",
     "image": "./images/instituto/instituto_cursos.jpg",
     "tags": [{"name":"Php", "className":"tag--php"} , {"name":"Javascript", "className":"tag--js"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web para gestionar los profesores, alumnos, cursos e inscripciones a estos.",
-    "repositories": {"server": "https://github.com/No-Country/s9-14-ft-node-react"},
-    "live":"https://marcodromero.github.io/demo-centro-educativo/"
+    "repositories": {"full": "https://github.com/marcodromero/proyecto-lab4"}
   }
     
 ]
