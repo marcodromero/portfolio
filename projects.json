@@ -32,20 +32,6 @@
     "live": "https://marcodromero.github.io/memory-game/"
   },
   {
-    "title": "Managym",
-    "image": "./images/managym/managym_home.jpg",
-    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
-    "description": "Web para gestionar un gimnasio. Brinda  herramientas e información a los dueños, entrenadores y afiliados.",
-    "repositories": {"server": "https://github.com/No-Country/s9-14-ft-node-react"}
-  },
-  {
-    "title": "Awericana",
-    "image": "./images/awericana/awericana_principal.jpg",
-    "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}],
-    "description": "E-commerce para la compra y venta de ropa usada.",
-    "repositories": {"full": "https://github.com/No-Country/c11-29-ft-node-react-Awericana"}
-  },
-  {
     "title": "ONG Somos más",
     "image": "./images/ong/ong_inicio.jpg",
     "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
