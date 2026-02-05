@@ -82,14 +82,17 @@ fetch("./projects.json").then((response)=>{
 
        projects.appendChild(projectElement);
 
-       projectElement.addEventListener("click", (e)=>{
+       projectElement.addEventListener("mouseenter", (e)=>{
         const parent = e.target.closest(".project");
         if(parent){
-          if(parent.children[4].style.display === "none" || parent.children[4].style.display === ""){
             parent.children[4].style.display= "flex"; 
-          }else{
+        }
+        })
+
+         projectElement.addEventListener("mouseleave", (e)=>{
+        const parent = e.target.closest(".project");
+        if(parent){
             parent.children[4].style.display= "none";
-          }
         }
         }) 
     });

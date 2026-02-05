@@ -1,9 +1,17 @@
 [
+   {
+    "title": "Zapping",
+    "image": "./images/zapping.png",
+    "tags": [{"name":"React", "className":"tag--react"}],
+    "description": "Reproductor M3U sin publicidad y multi-playlist. Incluye buscador y soporte para streaming de YouTube y Twitch.",
+    "repositories": {"full": "https://github.com/marcodromero/zapping"},
+    "live": "https://zapping-sooty.vercel.app/"
+  },
   {
     "title": "Archivos Compu",
     "image": "./images/compu-archives.png",
     "tags": [{"name":"React", "className":"tag--react"}],
-    "description": "Fan web dedicada a la revista Billiken Compu (ya discontinuada).",
+    "description": "Fan web dedicada a la revista Billiken Compu.",
     "repositories": {"full": "https://github.com/marcodromero/compu-archives"},
     "live": "https://archivoscompu.vercel.app/"
   },

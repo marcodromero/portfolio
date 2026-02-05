@@ -97,18 +97,18 @@ a:hover{
 }
 
 .projects__container{
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: auto;
-  row-gap: 60px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px
 }
 
 .project{
   border: 1px solid #386046;
   border-radius: 16px;
   padding: 17px 12px;
-  width: 100%; 
-  max-height: 350px;
+  height: 330px;
+  width: 250px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -229,12 +229,7 @@ footer{
 }
 
 @media (min-width: 800px) {
-  .projects__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 60px;
-    
-  }
+  
 
   .intro__dash, .intro__title--secondary{
   display:inline;
