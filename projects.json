@@ -44,8 +44,8 @@
     "image": "./images/ong/ong_inicio.jpg",
     "tags": [{"name":"Node", "className":"tag--node"}, {"name":"React", "className":"tag--react"}, {"name":"MySQL", "className":"tag"}],
     "description": "Web informativa sobre ONG con acceso de usuarios y panel de administrador.",
-    "repositories": {"server": "https://github.com/marcodromero/Alkemy-ONG-Server", "client": "https://github.com/marcodromero/Alkemy-ONG-Client"}
-
+    "repositories": {"server": "https://github.com/marcodromero/Alkemy-ONG-Server", "client": "https://github.com/marcodromero/Alkemy-ONG-Client"},
+    "live": "https://alkemy-ong-client.vercel.app/"
   },
   {
     "title": "Presupuesto personal",
